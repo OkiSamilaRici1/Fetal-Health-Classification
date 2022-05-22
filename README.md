@@ -120,6 +120,7 @@ The Boxplot shows that the average of variables has many outliers. So that some 
   * Desicion Tree
   * Gradient Boosting
   * XGBoost
+  
 Note : This dataset doesn't use log transformation because it doesn't improve the value F1 Score.
 
 B. KDE Plot for Knowing the Distribution
