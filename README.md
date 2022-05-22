@@ -120,6 +120,7 @@ The Boxplot shows that the average of variables has many outliers. So that some 
   * Desicion Tree
   * Gradient Boosting
   * XGBoost
+Note : This dataset doesn't use log transformation because it doesn't improve the value F1 Score.
 
 B. KDE Plot for Knowing the Distribution
 
@@ -153,7 +154,7 @@ Fetal Heart Rate baseline conditions for all fetal categories are normal. Becaus
 
 As a result, the baseline fetal heart rate doesn't provide information in the data set for prediction because it is already in normal conditions for all fetuses. Thus, in suspect and pathological cases, it is not a physiological problem that leads to fetal compromise.
 
-  2. Acelerations
+  2. Accelerations
 
 ![Screenshot (415)](https://user-images.githubusercontent.com/95860293/169698439-35aed7fb-867e-4d91-b987-29b51a8b6e44.png)
 
@@ -171,7 +172,7 @@ It can be seen that in all three cases, the majority of the fetal movements are 
 
 ![Screenshot (418)](https://user-images.githubusercontent.com/95860293/169698584-d65f84d0-2522-46f7-9908-0e96cb1b81ea.png)
 
-![Screenshot (419)](https://user-images.githubusercontent.com/95860293/169698590-4ab2be69-1d8c-497f-acb1-dd130818d4e2.png)
+![Screenshot (429)](https://user-images.githubusercontent.com/95860293/169700337-ff428ff6-8f52-4353-9748-728fd61b4f87.png)
 
 It can be seen that a normal fetus experienced uterine contractions more frequently than suspect and pathological. Most of the fetuses in the suspect and pathological categories did not experience uterine contractions at all. So, it can be concluded that a healthy fetus experiences uterine contractions.
 
