@@ -178,7 +178,7 @@ It can be seen that a normal fetus experienced uterine contractions more frequen
 
   5. Prolonged Decelerations
 
-![Screenshot (420)](https://user-images.githubusercontent.com/95860293/169698642-b1e0a0ec-2b29-46d2-9d10-e083e9ff6f3e.png)
+![Screenshot (431)](https://user-images.githubusercontent.com/95860293/169701123-02d21da3-ce26-4e1f-8381-126cfaa34771.png)
 
 ![Screenshot (421)](https://user-images.githubusercontent.com/95860293/169698645-6694feeb-8871-46da-a93b-dee319aaf18f.png)
 
