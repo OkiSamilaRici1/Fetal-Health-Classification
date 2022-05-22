@@ -87,6 +87,8 @@ B. Duplicate Data : 14 rows of duplicate data.
 
 Duplicate data can cause the model to misunderstand the data. The model will learn patterns that do not exist in reality or the model will study the same data as many duplicates. So it will produce a high accuracy value. We will assume a high accuracy value is good, but it is not. Therefore, before building a machine learning model we have to clean up duplicate data by deleting it. So that the modeling is more accurate.
 
+After removing duplicate data, the number of rows is 2112
+
 # Data Understanding
 A. Statistical Summary
 
@@ -129,8 +131,20 @@ B. KDE Plot for Knowing the Distribution
 * fetal_health is a target variable that has 3 values. Dominated by a value of 1 or a normal fetus which gives a positive skewed indication.
 
 # Bivariate Analysis
+A. Statistical Summary
+
+![Screenshot (428)](https://user-images.githubusercontent.com/95860293/169699573-5a4c28e4-da77-4398-ae91-267e68347943.png)
+
+* There are no features that are highly correlated with thresholds greater than 0.80. As a result, no features are removed.
+
+* prolongued_decelerations, percentage_STV, and percentage_LTV have a strong correlation with the target variable, which means that when the values are higher with a comparison of the baseline values in normal fetuses, it will indicate a pathological.
+
+* Meanwhile, features that have a negative correlation with the target variable are accelerations, uterine contractions, and mean_STV, which means that when the value is low with a comparison of the baseline values of a normal fetus, it will indicate a pathological.
 
 B. Exploratory Data Analysis
+
+In the exploratory data analysis, only a few features will be taken for analysis, namely baseline_FHR, acceleration, fetal movement, uterine contractions, and decelerations. The deceleration that will be selected is a prolonged deceleration due to a high decrease in the fetal heart rate. The STV and LTV features were not analyzed because these figures are percentages and the mean and the benchmark for the STV and LTV numbers are not known. So, it may be more difficult to analyze.
+
   1. Baseline Fetal Heart Rate
 
 ![Screenshot (401)](https://user-images.githubusercontent.com/95860293/169696371-9c6a6c42-252f-4193-b82c-a605d2a6995d.png)
@@ -211,7 +225,7 @@ Hyperparameter tuning succeeded in increasing the value of F1 Score Gradient Boo
 
 ![Screenshot (425)](https://user-images.githubusercontent.com/95860293/169698942-38b1e0d3-d6bb-438c-9501-387a97ff5ddf.png)
 
-![image](https://user-images.githubusercontent.com/95860293/169698951-d83ad880-86a3-47ea-b580-c9826c8870d5.png)
+percentage_STV, percentage_LTV, prolonged_decelerations are features with the most contributions.
 
 # Insight and Recommendations
 
