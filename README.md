@@ -190,7 +190,7 @@ The two charts above show that:
 
 As a result, a healthy fetus does not experience prolonged deceleration.
 
-Based on several features analyzed, it appears that uterine contractions, accelerations, and prolonged decelerations are determinants of fetal classifications. These features clearly distinguish between normal, suspected, and pathological fetuses. Now let's see how the relationship or effect of prolonged acceleration and deceleration when uterine contractions occur.
+Based on several features analyzed, it appears that uterine contractions, accelerations, and prolonged decelerations are determinants of fetal classifications. These features clearly distinguish between normal, suspected, and pathological fetuses. Now let's see how the relationship or effect of acceleration and prolonged  deceleration when uterine contractions occur.
 
 6. Relationship Between Uterine Contractions and Accelerations
 
