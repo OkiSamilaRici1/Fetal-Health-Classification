@@ -123,7 +123,7 @@ The Boxplot shows that the average of variables has many outliers. So that some 
   
 Note : This dataset doesn't use log transformation because it doesn't improve the value F1 Score.
 
-B. KDE Plot for Knowing the Distribution
+B. KDE (Kernel Density Estimate) Plot
 
 ![Screenshot (392)](https://user-images.githubusercontent.com/95860293/169696120-9c1ddda5-7404-4ff3-b1a5-ceaada4573a3.png)
 
