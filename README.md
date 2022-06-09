@@ -245,4 +245,9 @@ The relationship between variables that can determine fetal category is in healt
 
 Recommendations:
 
-Cardiotocography examination is very important for pregnant women to avoid disturbances related to fetal hypoxia. Especially pregnancy accompanied by complications such as pre-eclampsia, rupture of membranes, pregnancy more than 40 weeks, diabetes, hypertension, asthma, thyroid, chronic infectious diseases and complications of other diseases.
+* The chief obstetrician can hold meetings with managers and other important parties to disseminate the great benefits of CTG tools that can have a big impact on  hospitals.
+* Obstetricians can socialize pregnant women patients directly or through social media to immediately check if they experience the following symptoms of fetal hypoxia:
+  * Reduced fetal movement.
+  * Decreased fetal heart rate.
+  * There is meconium (fetal feces) in the amniotic fluid.
+* The impact of fetal hypoxia is fetal death, severe brain damage, or cognitive disabilities.
