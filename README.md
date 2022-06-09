@@ -76,6 +76,7 @@ The way to handle missing value
 If the missing value is more than 60% it can drop the column and if it is less than 30% it can drop the rows, but if it is more than 30% it can be done in the following way:
 
 a. For numeric data it can fill in the mean value for data that has a normal distribution and if the data is skewed, it can fill in the median value.
+
 b. For categorical data it can fill with the value of the mode, which is the value that occurs frequently. or can be filled with a constant value by forming a new column with the name column others
 
 The purpose of handling missing values is to make the data easier to analyze and the data to be more accurate as well as the machine learning model is to be made more powerful and without errors.
