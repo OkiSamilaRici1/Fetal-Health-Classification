@@ -104,7 +104,7 @@ The count plot of the target variable indicates an imbalanced class. This means 
   * AUC : classifer accuracy for imbalanced data
   * Precision : predicted positive rate
   * Recall : actual positive rate
-  * F1 Score : the average of recall and precision
+  * F1 Score : combination or summarizing of precision and recall.
 
 Among the 4 matrices to be used is the F1 score because it is to summarize precision and recall by taking the harmonic alignment of both. Therefore we can minimize the false-positive and the false-negative rate.
 
